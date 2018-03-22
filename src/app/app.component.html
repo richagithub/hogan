@@ -1,0 +1,453 @@
+<!-- Main header -->
+<header>
+    <!--Header Top-->
+
+
+
+
+    <section class="globalHeader isFixed">
+        <section class="container">
+            <div class="row">
+                <!--header left-->
+                <div class="col-xs-7 col-md-5">
+                    <figure class="logo" data-aos="fade" data-aos-duration="1200" data-aos-easing="ease-in-sine">
+                        <a href="#">
+                            <img src="assets/images/BTLawLogo.png">
+                        </a>
+                    </figure>
+                </div>
+                <!--header left-->
+
+                <!--header right-->
+                <div class="col-xs-5 col-md-7">
+                    <div data-aos="fade" data-aos-duration="1200" data-aos-easing="ease-in-sine">
+                        <div class="menuTrigger pullRight">
+                            <div class="hamburger">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div id="sb-search" class="sb-search">
+                            <span class="sb-icon-search">
+                                <i class="icon icon-search"></i>
+                            </span>
+                            <form>
+                                <input class="sb-search-input " autocomplete="off" placeholder="Search" type="text" value="" name="search" id="search">
+                                <input class="sb-search-submit" autocomplete="off" type="submit" value="">
+                                <span class="sb-icon-cross">
+                                    <i class="line"></i>
+                                    <i class="line"></i>
+                                </span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--header right-->
+            </div>
+        </section>
+        <!--Primary Navigation-->
+        <nav class="primaryNav">
+            <ul class="levelTop">
+                <li class="">
+                    <a href="#">Work</a>
+                    <ul class="subMenu">
+                        <li>
+                            <a href="#">Practices</a>
+                        </li>
+                        <li>
+                            <a href="#">Sector</a>
+                        </li>
+                        <li>
+                            <a href="#">Value Works</a>
+                        </li>
+                        <li>
+                            <a href="#">From Client's Point of View</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="">
+                    <a href="#">People</a>
+                </li>
+                <li class="">
+                    <a href="#">Firm</a>
+                    <ul class="subMenu">
+                        <li>
+                            <a href="#">Practices</a>
+                        </li>
+                        <li>
+                            <a href="#">Sector</a>
+                        </li>
+                        <li>
+                            <a href="#">Value Works</a>
+                        </li>
+                        <li>
+                            <a href="#">From Client's Point of View</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="">
+                    <a href="#">Insights &amp; Events</a>
+                </li>
+                <li class="">
+                    <a href="#">Careers</a>
+                </li>
+                <li class="">
+                    <a href="#">Locations</a>
+                </li>
+            </ul>
+        </nav>
+        <!--Primary Navigation-->
+    </section>
+    <!--Header Top-->
+</header>
+<!--Main header-->
+
+<!-- You write code for this content block in another file -->
+
+
+<main class="isPeople page">
+    <!--page Banner section-->
+
+    <section class="infoBanner  clearfix" data-aos="fade" data-aos-duration="1000" style="background-image:url('assets/images/temp/practicedetails.jpg');">
+        <div class="infoBox">
+        </div>
+        <div class="infoBox tintMedium">
+            <div class="contentMiddle introBox">
+                <h1 data-aos="fade-up" data-aos-offset="50" data-aos-duration="1600">
+                    <span>People</span>UNCOMMON TALENT</h1>
+
+            </div>
+        </div>
+        <div class="infoBox tintDark">
+            <div class="contentMiddle">
+
+                <div class="block">
+                    <h1 data-aos='fade' data-aos-easing='ease-in-sine' data-aos-offset='1' data-aos-duration='900' class='aos-init' style='color: rgba(255, 215, 118, 0.8784313725490196)'>AT THE HEART OFCLIENT NEEDS</h1>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--page banner section-->
+
+    <!--page content section-->
+    <div class="container">
+        <div class="pageContent">
+            <div class="primaryContent">
+                <h3>FIND A PROFESSIONAL</h3>
+
+                <!-- search buttons -->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="search_box pull-right">
+                            <!--
+                            <form #f="ngForm" (ngSubmit)="submit(f)">
+                                <input type="text" ngModel name="searchbox" #searchbox="ngModel" placeholder="Enter a name and/or Keyword">
+                            </form>
+                        -->
+
+                            
+                                <div class="input-field">
+                                  <input id="country" type="text" class="validate filter-input" [(ngModel)]=query (keyup)=filter() placeholder="Enter a name and/or Keyword" (keyup.enter)=print()>
+                                </div>
+                                <div class="suggestions" *ngIf="filteredList.length > 0">
+                                    <ul type="none" *ngFor="let item of filteredList" >
+                                        <li >
+                                            <a (click)="select(item)">{{item.h2}}</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                             	
+
+
+
+
+                            <!--<input type="submit" value="Search" id="ser" (click)="this._router.navigate(['/getserfil'])">-->
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <ul type="none">
+                            <p>Type</p>
+                            <li id="0" class="type">
+                                <label [class.selected]="t1.checked">
+                                    <input type="checkbox" value="Announcement" #t1 [checked]="T1" (change)="T1 = !T1; onChangeCb(t1)"> Announcement
+                                </label>
+
+                            </li>
+                            <li id="1" class="type">
+                                <label [class.selected]="t2.checked">
+                                    <input type="checkbox" value="Awards and Rankings" #t2 [checked]="T2" (change)="T2 = !T2;onChangeCb(t2)"> Awards and Rankings
+                                </label>
+
+                            </li>
+                            <li id="2" class="type">
+                                <label [class.selected]="t3.checked">
+                                    <input type="checkbox" value="Media Mention" #t3 [checked]="T3" (change)="T3 = !T3;onChangeCb(t3)">Media Mention
+                                </label>
+
+                            </li>
+                            <li id="3" class="type">
+                                <label [class.selected]="t4.checked">
+                                    <input type="checkbox" value="Press Releases" #t4 [checked]="T4" (change)="T4 = !T4;onChangeCb(t4)"> Press Releases
+                                </label>
+
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-sm-4">
+                        <ul type="none">
+                            <p>Industry</p>
+                            <li id="4" class="industry">
+                                <label [class.selected]="i0.checked">
+                                    <input type="checkbox" value="Consumer" #i0 [checked]="I0" (change)="I0 = !I0; onChangeCb(i0)"> Consumer
+                                </label>
+
+                            </li>
+                            <li id="5" class="industry">
+                                <label [class.selected]="i1.checked">
+                                    <input type="checkbox" value="Education" #i1 [checked]="I1" (change)="I1 = !I1;onChangeCb(i1)"> Education
+                                </label>
+
+                            </li>
+                            <li id="6" class="industry">
+                                <label [class.selected]="i2.checked">
+                                    <input type="checkbox" value="Energy and Natural Resources" #i2 [checked]="I2" (change)="I2 = !I2;onChangeCb(i2)">Energy and Natural Resources
+                                </label>
+
+                            </li>
+                            <li id="7" class="industry">
+                                <label [class.selected]="i3.checked">
+                                    <input type="checkbox" value="Insurance" #i3 [checked]="I3" (change)="I3 = !I3;onChangeCb(i3)"> Insurance
+                                </label>
+
+                            </li>
+                            <li id="8" class="industry">
+                                <label [class.selected]="i4.checked">
+                                    <input type="checkbox" value="Real Estate" #i4 [checked]="I4" (change)="I4 = !I4;onChangeCb(i4)">Real Estate
+                                </label>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- search buttons -->
+
+                <div class="col-1 col-padded-bottom filSelectedVal" *ngIf="(stickSelected.length >0)" [style.display]="(filSelVal )? 'block' :'none' ">
+                    <div class="selected-filters-container clearFilter">
+                        <ul class="selected-filters" id="SelectedFilters">
+                            <li *ngFor="let item of stickSelected">
+                                <span>{{item.svalue}}</span>
+                                <a href="javascript:void(0);" class="removeSelFilter">
+                                    <img src="assets/images/filCross.png" alt="remove">
+                                </a>
+                            </li>
+                        </ul>
+                        <a class="btn-border filled grey btn-clear-filter" href="javascript:void(0);" title="Clear all">Clear all</a>
+
+                    </div>
+                </div>
+
+
+
+                <!--thumb-->
+                <div class="row flexWrap">
+                    <!--Use "inline" class for flex content width card-->
+                    <div #thumb class="vCard col-xs-3" *ngFor="let item of contentData |   searchpipe:stickSelected:counter |searchtext:searchB | slice:0:pageEnd">
+                        <figure>
+                            <img src="{{item.imgSrc}}" alt="" />
+                        </figure>
+                        <div class="caption">
+                            <i>{{item.id}}</i>
+                            <h2>{{item.h2}}</h2>
+                            <address>
+                                <span>{{item.date}}</span>
+                            </address>
+                            <div class="contactInfo">
+                                <p>{{item.p}}</p>
+                            </div>
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <button (click)="showMoreData()">
+                        Show more
+                    </button>
+
+                </div>
+                <!--thumb-->
+
+            </div>
+            <div class="secondaryContent">
+                <ul class="innerWrap">
+                    <li>
+                        <img src="assets/images/temp/video.jpg" alt="Feature" style="height: 200px;">
+                    </li>
+                    <li>
+                        <div class="block">
+                            <h2>Headline</h2>
+                            <p>It may be elegant or playful, traditional or innovative, familiar or fresh, depending on the
+                                purpose and tone of the piece. The size and style of the type you are reading reflects what
+                                you will see in your brochure. Care is taken to specify every detail. Each type style has
+                                its own unique personality.
+                            </p>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!--page content section-->
+</main>
+
+<!-- You write code for this content block in another file -->
+
+
+<!--Slide box-->
+<section class="slideBox">
+    <a class="slideBtn" data-aos="slide-left" data-aos-duration="700" href="javascript:void(null);">
+        <span>News &amp; Highlights</span>
+        <i class="icon icon-cross"></i>
+    </a>
+    <div class="globalWrap">
+        <div class="contentWrap">
+            <ul id="slideContent" data-aos="fade-up" data-aos-duration="1400">
+                <li>
+                    <div class="thumnailNews">
+                        <img src="assets/images/flowergirl.jpg" alt-="" />
+                        <div class="caption">
+                            <h3>Growing Opportunities</h3>
+                            <p>Agrictulure and Food Group plants the seed</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="awardsList">
+                        <figure>
+                            <img src="assets/images/awards/award.png">
+                        </figure>
+                    </div>
+                </li>
+                <li>
+                    <div class="newsList">
+                        <div class="flexWrap">
+                            <figure>
+                                <img src="assets/images/Michael.jpg" alt-="" />
+                            </figure>
+                            <div class="caption">
+                                <h4>Firm News</h4>
+                                <span>Michael A. Battle</span>
+                                <p>Former U.S. Attorney joins Washington, DC office</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newsList">
+                        <div class="flexWrap">
+                            <figure>
+                                <img src="assets/images/remote.jpg" alt-="" />
+                            </figure>
+                            <div class="caption">
+                                <h4>News</h4>
+                                <span>Micichael A. Battle</span>
+                                <p>Former U.S. Attorney joins Washington, DC office</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="newsList">
+                        <div class="flexWrap">
+                            <figure>
+                                <img src="assets/images/garden.jpg" alt-="" />
+                            </figure>
+                            <div class="caption">
+                                <h4>Events</h4>
+                                <span>May 11, 2016</span>
+                                <p>National Ag and Food Leaders to Speak at Emerging Trends Conference</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--Slidebox-->
+<!--footer-->
+<footer class="globalFooter  clearfix">
+    <div class="container">
+        <div class="row innerContainer">
+            <div class="col-xs-12 col-sm-7 col-md-9">
+                <div class="row">
+                    <div class="col-xs-12 text-xs-center text-sm-left col-sm-12 col-md-4 copyRight">
+                        <span> &copy;2017 Barnes & Thornburg LLP</span>
+                    </div>
+                    <div class="col-xs-12 text-xs-center text-sm-left col-sm-12 col-md-8">
+                        <nav class="footerNav inlineMenu">
+                            <ul>
+                                <li>
+                                    <a href="#">Languages</a>
+                                </li>
+                                <li>
+                                    <a href="#">Site Map</a>
+                                </li>
+                                <li>
+                                    <a href="#">Disclaimer</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Client Web Portals</a>
+                                </li>
+                                <li>
+                                    <a href="#">Alumni</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 text-xs-center text-sm-right col-sm-5 col-md-3">
+                <nav class="socialNav inlineMenu">
+                    <ul>
+                        <li>
+                            <a href="#" class="icon icon-blogger"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon icon-facebook"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon icon-linkedin2"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon icon-twitter"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon icon-youtube"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon icon-rss"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon icon-share2"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="icon icon-printer"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer-->
