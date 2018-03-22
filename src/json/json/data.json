@@ -1,0 +1,100 @@
+{
+    "Content": [
+      {
+        "id": 1,
+        "imgSrc": "assets/images/vcard/vcard3.jpg",
+        "h2": "Panel discusses gender balance in the workplace on International Women's Day",
+        "date": "15 March 2018",
+        "p": "In celebration of International Women's Day 2018, Hogan Lovells Lee & Lee, Macquarie, and J.P. Morgan came together to host a panel discussion based on this year's ",
+        "type": "Press Releases",
+        "industry":"Consumer",
+        "practices":["Antitrust and Competition","Aviation Law"],
+        "topic":"Cuba",
+        "year": "2018"
+      },
+      {
+        "id": 2,
+        "imgSrc": "assets/images/vcard/vcard3.jpg",
+        "h2": "Law360 Names Four Hogan Lovells Practices as Practice Groups of the Year",
+        "date": "15 March 2018",
+        "p": "In celebration of International Women's Day 2018, Hogan Lovells Lee & Lee, Macquarie, and J.P. Morgan came together to host a panel discussion based on this year's ",
+        "type": "Media Mention",
+        "industry":"Education",
+        "practices":["Antitrust and Competition","Aviation Law"],
+        "topic":"Cuba",
+        "year": "2018"
+      },
+      {
+        "id": 3,
+        "imgSrc": "assets/images/vcard/vcard3.jpg",
+        "h2": "Hogan Lovells celebrates 13 winners in Client Choice awards",
+        "date": "15 March 2018",
+        "p": "In celebration of International Women's Day 2018, Hogan Lovells Lee & Lee, Macquarie, and J.P. Morgan came together to host a panel discussion based on this year's ",
+        "type": "Awards and Rankings",
+        "industry":"Insurance",
+        "practices":["Antitrust and Competition","Aviation Law"],
+        "topic":"Cuba",
+        "year": "2018"
+      },
+      {
+        "id": 4,
+        "imgSrc": "assets/images/vcard/vcard3.jpg",
+        "h2": "Hogan Lovells Represents Lightbridge Corporation in Innovative Nuclear Fuel Commercialization Joint Venture",
+        "date": "15 March 2017",
+        "p": "In celebration of International Women's Day 2018, Hogan Lovells Lee & Lee, Macquarie, and J.P. Morgan came together to host a panel discussion based on this year's ",
+        "type": "Announcements",
+        "industry":"Real Estate",
+        "practices":["Antitrust and Competition","Aviation Law"],
+        "topic":"Cuba",
+        "year": "2018"
+      },
+      {
+        "id": 5,
+        "imgSrc": "assets/images/vcard/vcard3.jpg",
+        "h2": "Lovells London M&A practice gains new energy and natural resources partner",
+        "date": "15 March 2016",
+        "p": "In celebration of International Women's Day 2018, Hogan Lovells Lee & Lee, Macquarie, and J.P. Morgan came together to host a panel discussion based on this year's ",
+        "type": "Press Releases",
+        "industry":"Education",
+        "practices":["Antitrust and Competition","Aviation Law"],
+        "topic":"Cuba",
+        "year": "2018"
+      },
+      {
+        "id": 6,
+        "imgSrc": "assets/images/vcard/vcard3.jpg",
+        "h2": "Tech Pharmacy Gets $24 Million Judgment After Trial in Eastern District of Texas",
+        "date": "08 March 2018",
+        "p": "On March 8, 2018, the Honorable Judge Amos L. Mazzant entered a Final Judgment awarding damages and attorneys’ fees of more than  $24,000,000.00 to Plaintiff Tech",
+        "type": "Press Releases",
+        "industry":"Education",
+        "practices":["Antitrust and Competition"],
+        "topic":"Cuba",
+        "year": "2018"
+      },
+      {
+        "id": 7,
+        "imgSrc": "assets/images/vcard/vcard3.jpg",
+        "h2": "Pro Bono Annual Report: Hogan Lovells lawyers demonstrate dedication to justice, equality, and change around the world",
+        "date": "02 March 2017",
+        "p": "In celebration of International Women's Day 2018, Hogan Lovells Lee & Lee, Macquarie, and J.P. Morgan came together to host a panel discussion based on this year's ",
+        "type": "Press Releases",
+        "industry":"Real Estate",
+        "practices":["Antitrust and Competition","Aviation Law"],
+        "topic":"Cuba",
+        "year": "2017"
+      },
+      {
+        "id": 8,
+        "imgSrc": "assets/images/vcard/vcard3.jpg",
+        "h2": "Hogan Lovells Brexit Taskforce responds to Theresa May's speech",
+        "date": "01 March 2016",
+        "p": "London, 2 March 2018 — Theresa May has today set out in more detail than ever before the bold future relationship that the UK Government believes to be in the interests of both the UK ",
+        "type": "Media Mention",
+        "industry":"Education",
+        "practices":["Aviation Law"],
+        "topic":"Cuba",
+        "year": "2016"
+      }
+    ]
+}
